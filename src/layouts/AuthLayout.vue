@@ -1,7 +1,9 @@
 <script setup></script>
 
 <template>
-  <p>Auth (Login/Signup) Layout</p>
+  <div class="flex h-screen items-center justify-center bg-background">
+    <RouterView />
+  </div>
 </template>
 
 <style scoped></style>
