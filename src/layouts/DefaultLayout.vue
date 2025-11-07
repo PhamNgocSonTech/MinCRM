@@ -5,7 +5,7 @@ import Navbar from '@/components/layout/Navbar.vue'
 <template>
   <div class="flex h-screen bg-background text-foreground">
     <!-- Main -->
-    <div class="flex flex-1 flex-col">
+    <div class="flex flex-1 flex-col overflow-hidden">
       <!-- Navbar -->
       <Navbar/>
       <main class="p-6 overflow-y-auto">
