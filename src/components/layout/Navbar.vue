@@ -25,6 +25,10 @@ import { Bell, Search  } from "lucide-vue-next"
           <AvatarImage src="https://mockmind-api.uifaces.co/content/cartoon/26.jpg" alt="@unovue" />
           <AvatarFallback>Ngoc Son</AvatarFallback>
         </Avatar>
+        <div class="hidden sm:block text-right">
+          <p class="text-sm font-medium text-slate-900">Ngoc Son</p>
+          <p class="text-xs text-slate-500">Admin</p>
+        </div>
       </div>
   </header>
 
